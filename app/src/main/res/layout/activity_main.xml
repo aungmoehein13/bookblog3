@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myscroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d5e5ffff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/reqlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#aaccffff"
+        >
+
+        <Button
+            android:id="@+id/btnreq1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="560dp"
+            android:layout_marginBottom="41dp"
+            android:text="Request"
+            android:textStyle="bold"
+           />
+
+        <Button
+            android:id="@+id/btnreq"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginBottom="41dp"
+            android:text="Request"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_centerHorizontal="true"
+            android:background="#FFFFFF"
+            android:text="@string/reqreview"
+            android:textColor="#ff000000"
+            android:textSize="16dip"
+            android:textStyle="bold"
+           ></TextView>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"
+            android:text="@string/reqbook"
+            android:textColor="#ff000000"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            ></TextView>
+        s
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
